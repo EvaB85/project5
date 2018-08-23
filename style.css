@@ -1,0 +1,14 @@
+body {
+  background: black;
+  font-size: 30px;
+  color: white;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  border: .1em solid white;
+  padding: 1em;
+  background: yellow;
+  color: black;
+}
