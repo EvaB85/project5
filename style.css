@@ -1,7 +1,28 @@
 body {
   background: black;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
+  text-align: center;
+}
+
+header {
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 28px;
 }
 
 .button {
@@ -11,4 +32,13 @@ body {
   padding: 1em;
   background: yellow;
   color: black;
+}
+
+.section-one, .section-two {
+  border: .1em solid lightblue;
+  padding: 2em;
+}
+
+.section-two {
+  margin-top: 5em;
 }
